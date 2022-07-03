@@ -1,0 +1,72 @@
+<!-- navigation -->
+<header class="is-sticky-top bg-white border-bottom border-default">
+   <div class="container">
+
+      <nav class="navigation navbar is-white">
+         <a class="navbar-brand is-inline-flex ml-0 is-align-items-center" href="index.html">
+            <img src="images/logo.png" alt="logo">
+         </a>
+         <button role="button" class="navbar-burger burger" data-hidden="true" data-target="navigation">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+         </button>
+
+         <ul class="navbar-end navbar-menu" id="navigation">
+            <li class="navbar-item has-dropdown is-hoverable has-active">
+               <a class="navbar-link">Homepage <small class="ti-angle-down ml-1"></small></a>
+               <div class="navbar-dropdown">
+                  <a class="navbar-item" href="index-full.html">Homepage Full Width</a>
+                  <a class="navbar-item" href="index-full-left.html">Homepage Full With Left Sidebar</a>
+                  <a class="navbar-item" href="index-full-right.html">Homepage Full With Right Sidebar</a>
+                  <a class="navbar-item" href="index-list.html">Homepage List Style</a>
+                  <a class="navbar-item" href="index-list-left.html">Homepage List With Left Sidebar</a>
+                  <a class="navbar-item" href="index-list-right.html">Homepage List With Right Sidebar</a>
+               </div>
+            </li>
+                
+            <li class="navbar-item">
+               <a class="navbar-link is-arrowless" href="about.html">About</a>
+            </li>
+                
+            <li class="navbar-item">
+               <a class="navbar-link is-arrowless" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="navbar-item has-dropdown is-hoverable has-active">
+               <a class="navbar-link">Pages <small class="ti-angle-down ml-1"></small></a>
+               <div class="navbar-dropdown">
+                  <a class="navbar-item" href="author.html">Author</a>
+                  <a class="navbar-item" href="post-details-1.html">Post Details 1</a>
+                  <a class="navbar-item" href="post-details-2.html">Post Details 2</a>
+                  <a class="navbar-item" href="post-elements.html">Post Elements</a>
+                  <a class="navbar-item" href="privacy-policy.html">Privacy Policy</a>
+                  <a class="navbar-item" href="terms-conditions.html">Terms Conditions</a>
+               </div>
+            </li>
+
+            <li class="navbar-item">
+               <select class="m-2 is-borderless" id="select-language">
+                  <option id="en" value="about/" selected>En</option>
+                  <option id="fr" value="fr/about/">Fr</option>
+               </select>
+            </li>
+
+            <li class="navbar-item">
+               <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+            </li>
+
+            <!-- search -->
+            <div class="search">
+               <div class="search-wrapper">
+                  <form action="javascript:void(0)" class="h-100">
+                     <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+                  </form>
+                  <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+               </div>
+            </div>
+         </ul>
+      </nav>
+   </div>
+</header>
+<!-- /navigation -->
